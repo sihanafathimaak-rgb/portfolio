@@ -10,7 +10,7 @@ Open `index.html` in a browser, or serve this folder with any static HTTP server
 
 - **Profile photo:** The Home and About pages use `profile.png`, cropped inside a circular frame to focus on the portrait. Keep the image file in the project root unless you update the `src` in both pages.
 - **Resume:** The Home page's View Resume button opens the existing `resume.jpeg` in a new tab. Replace the link with a PDF path if you add a PDF resume later.
-- **Project links:** In `projects.html`, replace each `href="#"` on the GitHub and Live demo buttons with the matching repository or deployment URL. The placeholder links are intentionally inert. Update descriptions, technology tags, and category filters if a project changes.
+- **Project links:** Update the GitHub and Live demo URLs on each project card in `projects.html` when project destinations change. Update descriptions, technology tags, and category filters as needed.
 - **Contact form:** Create a form at [Formspree](https://formspree.io/) and replace `YOUR_FORM_ID` in the form action in `contact.html` with the form ID it provides. The email link is available as a fallback until the form is configured.
 - **Social links or contact details:** Update the matching links and text in the shared navigation/footer or the relevant page.
 
